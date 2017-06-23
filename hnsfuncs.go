@@ -82,6 +82,7 @@ type HNSEndpoint struct {
 	DisableICC         bool              `json:",omitempty"`
 	PrefixLength       uint8             `json:",omitempty"`
 	IsRemoteEndpoint   bool              `json:",omitempty"`
+	AssignGateway      bool              `json:",omitempty"`
 }
 
 type hnsNetworkResponse struct {
